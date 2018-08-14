@@ -1,0 +1,210 @@
+.menu {
+  width: 18px;
+  object-fit: contain;
+  padding: 15px 15px;
+}
+#menu {
+  width: 40px;
+  height: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #009e5f;
+  color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav-middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top: 10px;
+}
+.menu-button1{
+    border-radius: 100px;
+    border: solid 1px #ffffff;
+    margin: 10px;
+}
+
+.menu-button2{
+    border-radius: 21px;
+    background-color: #fdc200;
+    margin: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom: 5px solid #009e5f;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+   
+    border-top: none;
+}
+section {
+  padding: 20px;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 1440px;
+  min-height: 1148px;
+  background-color: #f1f5f9;
+}
+
+.card1 {
+  width: 610px;
+  height: 424px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+  float: left;
+  margin: 20px;
+}
+
+.wrapper {
+  background-color: #f1f5f9;
+  padding: 0px 50px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.img-card {
+    border-radius: 5px 5px 0 0;
+}
+
+ .one-fourth {
+     border-right: 1px solid #ddd;
+     width: 25%;
+    float: left;
+    padding: 0px 15px;
+  }
+
+  .one-half {
+     border-right: 1px solid #ddd;
+     width: 50%;
+    float: left;
+    padding: 0px 15px;
+  }
+
+  .no-border{
+    border-right: none;
+  }
+
+   .sup {
+    position: absolute;
+    bottom: 4px; 
+    font-size: 45%;
+    margin-left: 2px;
+  }
+  
+  .stat {
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .card-button1{
+     width: 120px;
+     height: 36px;
+    border-radius: 100px;
+    background-color: #009e5f;
+  }
+
+  .right-padded{
+    float: right;
+    width: 30%;
+  }
+
+  .left-padded{
+    float: left;
+    display: inline-flex;
+    width: 70%;
+  }
+
+  .Oval-1 {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.natural_food {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+
+}
+
+.layer {
+  width: 29px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fdc200;
+}
